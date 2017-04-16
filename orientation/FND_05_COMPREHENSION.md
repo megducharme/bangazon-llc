@@ -7,6 +7,7 @@ Comprehension in Python is very much like the `map()` and `filter()` array funct
 Let's take a lists of strings, and build a new list, with each item modified a bit.
 
 ```python
+large_flowers = list()
 flowers = ['Lily', 'Snapdragon', 'Rose', 'Tulip']
 large_flowers = ['a large ' + f for f in flowers]
 ```
